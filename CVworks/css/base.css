@@ -516,11 +516,9 @@ main {
 
 }
 .icon {
-		/* width: 1em;  */
 		height: 1em;
 		vertical-align: -0.15em;
 		fill: currentColor;
-
 		display:inline-block;
 }
 .showCV {
@@ -528,26 +526,7 @@ main {
   right: 40px;
   bottom: 40px;
   padding: 10px 25px;
-  border: 1px solid #ddd;
-	z-index: 800;
+	z-index: 8;
 }
 
- /*
-
- .resume-wrapper {
-  width: 900px;
-  transition: max-height 2s;
-  max-height: 0;
-  overflow: hidden;
-	z-index: 1200;
-	margin:0 auto;
-}
-
-.resume-wrapper.active {
-  max-height: 1200px;
-}
-
-.resume-wrapper img {
-  width: 100%;
-	z-index: 500;
-}*/
+ 
