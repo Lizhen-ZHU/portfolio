@@ -468,3 +468,10 @@
 	// Preload all the images in the page..
     imagesLoaded(document.querySelectorAll('.grid__item'), {background: true}, () => document.body.classList.remove('loading'));
 }
+
+
+let bt = document.querySelector('.showCV');
+let cvWrap = document.querySelector('.resume-wrapper');
+bt.addEventListener('click', ()=> {
+  cvWrap.classList.toggle('active');
+})
