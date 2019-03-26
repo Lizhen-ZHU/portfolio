@@ -8,6 +8,7 @@ body {
   margin: 0;
   background: white;
   background-size: cover;
+
 }
 
 video {
@@ -24,8 +25,7 @@ video {
 
 .text {
   position: absolute;
-font-family: 'Heebo', sans-serif;
-
+font-family: "Anton", Arial, sans-serif;
   font-size: 360px;
   text-align: center;
   color: black;
@@ -170,7 +170,7 @@ ol,ul{
     z-index: 1;
     font-size: 15px;
     font-weight: 400;
-    font-family: 'Crimson Text', serif;
+    font-family: 'Ropa Sans', sans-serif;
     text-transform: uppercase;
     font-weight: normal;
     top: 25px;
@@ -180,6 +180,7 @@ ol,ul{
 .logo{
   float:left;
   color:#e06567;
+  font-family: 'Ropa Sans', sans-serif;
   text-decoration:none;
   margin: 10px 17px;
   text-transform: uppercase;
@@ -187,7 +188,9 @@ ol,ul{
 .topnavbar{
   float:right;
   z-index:1;
+  font-family: 'Ropa Sans', sans-serif;
 }
+
 .navli{
   float:left;
   margin: 10px 17px;
@@ -201,6 +204,7 @@ ol,ul{
   border: 1px solid transparent;
   padding-bottom:5px;
   display:block;
+  
 }
 
 .nava:hover{
@@ -214,19 +218,20 @@ ol,ul{
 .wordwrap{
   height:100px;
   width:830px;
-  margin:140px auto;
+  margin:170px auto;
   position:relative;
   top:50vh;
   color:white;
-  font-weight: bold;
   font-size: 2em;
-  font-family: 'Crimson Text', serif;
+  font-family: 'Ropa Sans', sans-serif;
 }
 #typewords {
-  font-weight: bold;
-  font-family: 'Crimson Text', serif;
+  font-family:'Ropa Sans', sans-serif;
+  font-weight: 400;
   color:#e06567;
   opacity:0.7;
+  margin-top: 30px;
+
 }
 
 

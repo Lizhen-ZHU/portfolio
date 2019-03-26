@@ -11,7 +11,7 @@ body {
 		/* --color-bg: #EBE1E1; */
 	--color-link: #fff;
 	--color-link-hover: #e06567;
-	font-family: "Niramit", Arial, sans-serif;
+	font-family: 'Ropa Sans', sans-serif;
 	min-height: 100vh;
 	color: #57585c;
 	color: var(--color-text);
@@ -368,22 +368,22 @@ main {
 }
 .discr{
 	  max-width: 800px;
-		font-size: 1.2rem;
+		font-size: 1.3rem;
 		margin: 0 auto;
-		font-family: "nimbus-sans";
+		font-family: 'Ropa Sans', sans-serif;
+letter-spacing: 0.3px;
+line-height: 1.6;
 }
 
 .wid{
 	max-width: 800px;
-	font-size: 1.2rem;
+	font-size: 1.3rem;
 	margin: 0 auto;
+	font-family: 'Ropa Sans', sans-serif;
+letter-spacing: 0.34px;
+line-height: 1.6;
 }
-.bbbb{
-	widows: 100%;
-	height:100px;
-	background:#101010;
-	transform: translateY(50%);
-}
+
 .cent{
 	text-align:center;
 	margin:15px auto;
@@ -495,7 +495,7 @@ main {
 }
 
 .upup{
-	transform: translateY(-40%);
+	transform: translateY(-35%);
 }
 
 .tit{
@@ -514,10 +514,13 @@ main {
 }
 .bold{
 	font-weight: bold;
-
 }
 .fontt{
-	font-family: "nimbus-sans";
+	font-family: 'Ropa Sans', sans-serif;
+}
+.navfont{
+	    font-family: 'Ropa Sans', sans-serif;
+			font-weight: bold;
 }
 .icon {
 		height: 1em;
