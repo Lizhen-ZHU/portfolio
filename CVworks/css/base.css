@@ -6,10 +6,10 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 }
 
 body {
-	--color-text: #fff;
-	--color-bg: #101010;
+	--color-text: black;
+	/* --color-bg: #101010; */
 		/* --color-bg: #EBE1E1; */
-	--color-link: #fff;
+	--color-link: #e06567;
 	--color-link-hover: #e06567;
 	font-family: 'Ropa Sans', sans-serif;
 	min-height: 100vh;
@@ -90,6 +90,7 @@ a:focus {
 	height: 1.5em;
 	margin: 0 auto;
 	fill: currentColor;
+		color: #f0b7b8;
 }
 
 main {
@@ -189,8 +190,8 @@ main {
 .menu__item-text {
 	font-family: "Anton", Arial, sans-serif;
 	text-transform: uppercase;
-	-webkit-text-stroke: 2px #fff;
-	text-stroke: 2px #fff;
+	-webkit-text-stroke: 2px #e06567;
+	text-stroke: 2px #e06567;
 	-webkit-text-fill-color: transparent;
 	text-fill-color: transparent;
 	color: transparent;
@@ -201,9 +202,9 @@ main {
 }
 
 .menu__item--current .menu__item-text {
-	-webkit-text-fill-color: #fff;
-	text-fill-color: #fff;
-	color: #fff;
+	-webkit-text-fill-color: #e06567;
+	text-fill-color: #e06567;
+	color: #e06567;
 	-webkit-text-stroke: 2px transparent;
 	text-stroke: 2px transparent;
 }
@@ -217,7 +218,7 @@ main {
 	cursor: pointer;
 	text-align: center;
 	font-size: 1.6rem;
-	color:#dda19f;
+	color: #f0b7b8;
 }
 
 .menu__item--current .menu__item-link {
@@ -291,7 +292,7 @@ main {
 
 .grid__item::after {
 	content: '';
-	background: rgba(0,0,0,0.1);
+	background: rgba(255,255,255,0.5);
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -373,6 +374,7 @@ main {
 		font-family: 'Ropa Sans', sans-serif;
 letter-spacing: 0.3px;
 line-height: 1.6;
+	color: black;
 }
 
 .wid{
@@ -382,6 +384,7 @@ line-height: 1.6;
 	font-family: 'Ropa Sans', sans-serif;
 letter-spacing: 0.34px;
 line-height: 1.6;
+	color: black;
 }
 
 .cent{
@@ -461,10 +464,12 @@ line-height: 1.6;
 	.menutop__item:nth-child(2) {
 		margin: 0 2rem 0 0;
 		font-family: 'Crimson Text', serif;
+
 	}
 	.menu {
 		top: 0;
 		height: 100%;
+		color: #e06567;
 	}
 	.menu__item {
 		margin: 1rem 0;
@@ -501,6 +506,7 @@ line-height: 1.6;
 .tit{
 	color:#e06567;
 	font-family: "Anton", Arial, sans-serif;
+		color: #e06567;
 }
 
 .lalapage{
@@ -514,13 +520,16 @@ line-height: 1.6;
 }
 .bold{
 	font-weight: bold;
+		color: black;
 }
 .fontt{
 	font-family: 'Ropa Sans', sans-serif;
+		color: black;
 }
 .navfont{
 	    font-family: 'Ropa Sans', sans-serif;
 			font-weight: bold;
+
 }
 .icon {
 		height: 1em;
@@ -528,12 +537,16 @@ line-height: 1.6;
 		fill: currentColor;
 		display:inline-block;
 }
+.icon--arrow{
+		color:#e06567;
+}
 .showCV {
   position: fixed;
   right: 40px;
   bottom: 40px;
   padding: 10px 25px;
 	z-index: 8;
+		color:#e06567;
 }
 .linkk{
 	color: white;
