@@ -1,5 +1,5 @@
 var options = {
-  strings: [ 'I am an User Experience Designer', 'I am an Interaction Designer ', 'Imbuing empathy and perspective through experience and interaction design'],
+  strings: [ 'I am from Columbia university ', 'I am an User Experience Designer',  'Imbuing empathy and perspective through experience and interaction design'],
   typeSpeed: 50,
   startDelay: 500,
   backSpeed: 20,
